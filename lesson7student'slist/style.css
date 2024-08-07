@@ -1,0 +1,12 @@
+.unordered-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.unordered-list li {
+    padding: 10px;
+}
+
+.unordered-list li:nth-of-type(2n) {
+    text-align: center;
+}
