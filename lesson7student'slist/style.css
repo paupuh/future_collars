@@ -7,6 +7,6 @@
     padding: 10px;
 }
 
-.unordered-list li:nth-of-type(2n) {
+.unordered-list li:nth-of-type(odd) {
     text-align: center;
 }
