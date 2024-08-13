@@ -1,0 +1,11 @@
+.responsive-box {
+  width: 94%;
+  margin: 0 auto; /*wycentrowanie diva  w poziomie, rowno z lewej z i z prawej */
+  background-color: aquamarine;
+}
+
+@media (min-width: 769px) {
+  .responsive-box {
+    width: 640px;
+  }
+}
