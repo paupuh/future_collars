@@ -1,0 +1,11 @@
+.parent {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.child {
+  width: 33.33%;
+  background-color: aqua;
+  text-align: center;
+}
