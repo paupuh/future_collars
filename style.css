@@ -1,57 +1,14 @@
-.box {
-    margin: 0 auto;
+.circle-container {
+  width: 100%; 
+  height: 200px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-@media (max-width: 360px){
-    .box {
-        width: 94%;
-    }
+.circle {
+  width: 33%;
+  padding-bottom: 33%; 
+  background-color: red;
+  border-radius: 50%; /* Sprawia, że element staje się okrągły */
 }
-
-@media (max-width: 768px){
-    .box {
-        width: 96%;
-    }
-}
-
-@media (max-width: 1024px){
-    .box {
-        width: 720px;
-    }
-}
-
-@media (min-width: 1025px){
-    .box {
-        width: 996px;
-    }
-}
-
-.button {
-    font-weight: bold;
-    width: 100%;
-    background-color: rgb(36, 173, 152);
-    color:rgb(255, 255, 255);
-    padding: 20 px 40px;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-}
-
-@media (min-width: 769px) {
-    .button {
-        width: auto;
-    }
-}
-
-@media (hover: hover) {
-    .button:hover {
-        background-color: rgb(255, 255, 255);
-        color: rgb(36, 173, 152)
-    }
-}
-
-/* <button>:
-a przy :hover
-
-
-Pamiętaj, że na urządzeniach mobilnych nie ustawiamy hover. */ */
