@@ -1,35 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bootstrap + Alert</title>
-    <link
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
+    <title>Projekt zaliczeniowy 1</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="bootstrap container">
-      </div>
+    <!-- Nawigacja -->
+    <header>
+      <nav class="navbar">
+        <div class="content menu">
+          <a href="#" class="navbar-item">moja firma</a>
+          <div class="navbar-items">
+            <a href="#" class="navbar-item">o nas</a>
+            <a href="#" class="navbar-item">oferta</a>
+            <a href="#" class="navbar-item">kontakt</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Sekcja główna strony -->
+    <section class="landing-page">
+      <div class="background-image"></div>
+      <h2>Nasza firma oferuje najwyzszej <br />jakosci produkty.</h2>
+      <h4>Nie wierz nam na słowo, sprawdź</h4>
+      <a href="#"><i class="oferta"></i>oferta</a>
+    </section>
 
-      <!-- Pierwszy wiersz z trzema divami -->
-      <div class="row">
-        <div class="col-md-4 custom-col">Kolumna 1</div>
-        <div class="col-md-4 custom-col">Kolumna 2</div>
-        <div class="col-md-4 custom-col">Kolumna 3</div>
+    <!-- Sekcja o nas -->
+     <section class="o-nas"></section>
+        <div class="title"></div> 
+          <h2>Nasi Specjaliści</h2>
+        </div>
       </div>
+      <div class="ellipse-1"></div>
+      <div class="osoba1">
+        <div class="onasinfo1">
+          <h3>Imię i Nazwisko [ dział ]</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel massa et lacus egestas cursus a non magna. Fusce scelerisque blandit nunc, id malesuada ex lobortis a. Integer felis nisi, tempor elementum lorem in, varius pellentesque ligula. Duis efficitur lacinia enim, non tincidunt libero ultrices in.</p>
+        </div>
 
-      <!-- Drugi wiersz z trzema divami -->
-      <div class="row">
-        <div class="col-md-4 custom-col">Kolumna 4</div>
-        <div class="col-md-4 custom-col">Kolumna 5</div>
-        <div class="col-md-4 custom-col">Kolumna 6</div>
+        <div class="ellipse-2"></div>
+        <div class="osoba2">
+          <div class="onasinfo2">
+            <h3>Imię i Nazwisko [ dział ]</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel massa et lacus egestas cursus a non magna. Fusce scelerisque blandit nunc, id malesuada ex lobortis a. Integer felis nisi, tempor elementum lorem in, varius pellentesque ligula. Duis efficitur lacinia enim, non tincidunt libero ultrices in.</p>
+          </div>
+        <div class="photo"></div>
       </div>
-    </div>
+    </section>
+    
+      <!-- Sekcja Oferta -->
+      <section class="Oferta"></section>
+      <div class="title"> </div>
+        <h2>Czym zajmuje się nasza firma?</h2>
+        <div class="grid">
+          <div class="box">Usługa 1<br><span class="new">nowość</span></div>
+          <div class="box">Usługa 2</div>
+          <div class="box">Usługa 3</div>
+          <div class="box">Usługa 4</div>
+          <div class="box">Usługa 5</div>
+          <div class="box">Usługa 6</div>
+        </div>
+      </section>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Stopka -->
+    <footer>
+      <p>Nazwa firmy - wszelkie prawa zastrzeżone, 2019</p>
+    </footer>
   </body>
 </html>
