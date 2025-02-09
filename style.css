@@ -26,7 +26,7 @@ body {
 }
 
 .menu {
-  display: flex; /* Stylowanie w jednej linii */
+  display: flex;
   justify-content: space-between;
 }
 
@@ -38,6 +38,10 @@ body {
 @media (hover: hover) {
   .item-disabled:hover {
     cursor: not-allowed;
+  }
+  .box:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
   }
 }
 
@@ -83,8 +87,8 @@ body {
 
 .person {
   flex-direction: column;
-  display: flex; /*text and jpeg next to each other */
-  align-items: center; /* Wyrównuje elementy w pionie */
+  display: flex;
+  align-items: center;
   margin-bottom: 20px;
   gap: 30px;
 }
@@ -92,7 +96,7 @@ body {
 .person-img {
   width: 150px;
   max-width: 150px;
-  height: 150px; /* proportions */
+  height: 150px;
   object-fit: cover;
   border-radius: 50%;
 }
@@ -103,6 +107,9 @@ body {
   background-color: #405d78;
 }
 
+.offer h2 {
+  color: white;
+}
 .grid {
   display: grid;
   grid-template-columns: 200px;
@@ -149,38 +156,22 @@ body {
   flex-direction: column;
   gap: 30px;
 }
-/* Stopka */
-.footer {
-  padding: 20px 0;
-  background-color: #4c4c4c;
+
+/* Tittle on the middle when on mobile devices */
+@media (max-width: 1023px) {
+  .about-us-content h2 {
+    text-align: center;
+  }
 }
 
-.content {
-  width: 90%;
-  margin: 0 auto;
-}
-
-.footer-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
-  text-align: center;
-  color: white;
-}
-
-.icons {
-  color: white;
-  font-size: 30px;
-}
-
-/* Dostosowania dla dużych ekranów */
+/* second employee text on desktop version */
 @media (min-width: 1024px) {
   .person {
-    flex-direction: row; /* Ustawia elementy w jednej linii */
+    flex-direction: row;
   }
   .person:nth-of-type(even) {
-    flex-direction: row-reverse; /* Odwraca układ dla parzystych elementów */
+    flex-direction: row-reverse;
+    text-align: right;
   }
   .content {
     width: 960px;
