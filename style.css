@@ -161,7 +161,13 @@ body {
 @media (max-width: 1023px) {
   .about-us-content h2 {
     text-align: center;
+    padding: 0 5%;
   }
+}
+
+.content {
+  width: 90%;
+  margin: 0 auto;
 }
 
 /* second employee text on desktop version */
